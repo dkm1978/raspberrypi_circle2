@@ -1,0 +1,28 @@
+{
+  "name": "raspberrypi_circle2",
+  "title": "Windows raspberrypi_circle2 support.",
+  "description": "Windows x86 + SDL platform.",
+  "homepage": "https://github.com/dkm1978/raspberrypi_circle2",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dev-platform",
+    "Windows",
+    "RaspberryPI",
+    "Circle2"
+  ],
+  "engines": {
+    "platformio": "^6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkm1978/raspberrypi_circle2.git"
+  },
+  "version": "1.2.0",
+  "packages": {
+    "toolchain-arm-rasppi-baremetal": {
+      "type": "toolchain",
+      "owner": "dkm1978",
+      "version": "https://github.com/dkm1978/toolchain-arm-rasppi-baremetal/releases/download/1/toolchain-arm-rasppi-baremetal.zip"
+    }
+  }
+}
